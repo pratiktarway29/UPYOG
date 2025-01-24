@@ -6,7 +6,7 @@
   ~     Copyright (C) 2017  eGovernments Foundation
   ~
   ~     The updated version of eGov suite of products as by eGovernments Foundation
-  ~     is available at http://www.egovernments.org
+  ~     is available at https://www.egovernments.org
   ~
   ~     This program is free software: you can redistribute it and/or modify
   ~     it under the terms of the GNU General Public License as published by
@@ -19,8 +19,8 @@
   ~     GNU General Public License for more details.
   ~
   ~     You should have received a copy of the GNU General Public License
-  ~     along with this program. If not, see http://www.gnu.org/licenses/ or
-  ~     http://www.gnu.org/licenses/gpl.html .
+  ~     along with this program. If not, see https://www.gnu.org/licenses/ or
+  ~     https://www.gnu.org/licenses/gpl.html .
   ~
   ~     In addition to the terms of the GPL license to be adhered to in using this
   ~     program, the following additional terms are to be complied with:
@@ -31,7 +31,7 @@
   ~            Urban Local Bodies interfaces, dashboards, mobile applications, of the program and any
   ~            derived works should carry eGovernments Foundation logo on the top right corner.
   ~
-  ~            For the logo, please refer http://egovernments.org/html/logo/egov_logo.png.
+  ~            For the logo, please refer https://egovernments.org/html/logo/egov_logo.png.
   ~            For any further queries on attribution, including queries on brand guidelines,
   ~            please contact contact@egovernments.org
   ~
@@ -77,32 +77,32 @@
 
     <organization>
         <name>eGovernments Foundation</name>
-        <url>http://www.egovernments.org</url>
+        <url>https://www.egovernments.org</url>
     </organization>
 
     <licenses>
         <license>
             <name>GPL 3.0</name>
-            <url>http://www.gnu.org/licenses/gpl-3.0.en.html</url>
+            <url>https://www.gnu.org/licenses/gpl-3.0.en.html</url>
             <comments>See also: https://raw.githubusercontent.com/egovernments/eGov/master/LICENSE</comments>
         </license>
     </licenses>
 
     <ciManagement>
         <system>Jenkins</system>
-        <url>http://ci.egovernments.org/job/eGov-Github-Master/</url>
+        <url>https://ci.egovernments.org/job/eGov-Github-Master/</url>
     </ciManagement>
 
     <distributionManagement>
         <repository>
-            <id>http://nexus-repo.digit.org/nexus/content/groups/public/</id>
+            <id>https://nexus-repo.digit.org/nexus/content/groups/public/</id>
             <name>eGov ERP Releases Repository</name>
-            <url>http://nexus-repo.digit.org/nexus/content/repositories/releases/</url>
+            <url>https://nexus-repo.digit.org/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
             <id>nexus-repo.digit.org</id>
             <name>eGov ERP Snapshots Repository</name>
-            <url>http://nexus-repo.digit.org/nexus/content/repositories/snapshots/</url>
+            <url>https://nexus-repo.digit.org/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -110,7 +110,7 @@
         <repository>
             <id>nexus-repo.digit.org</id>
             <name>eGov Public Repository Group</name>
-            <url>http://nexus-repo.digit.org/nexus/content/groups/public/</url>
+            <url>https://nexus-repo.digit.org/nexus/content/groups/public/</url>
             <snapshots>
                 <enabled>true</enabled>
                 <updatePolicy>always</updatePolicy>
@@ -133,7 +133,7 @@
         <pluginRepository>
             <id>nexus-repo.digit.org</id>
             <name>eGov Public Repository Group</name>
-            <url>http://nexus-repo.digit.org/nexus/content/groups/public/</url>
+            <url>https://nexus-repo.digit.org/nexus/content/groups/public/</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
