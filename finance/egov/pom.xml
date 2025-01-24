@@ -283,6 +283,11 @@
                     </exclusion>
                 </exclusions>
             </dependency>
+	    <dependency>
+                <groupId>org.projectlombok</groupId>
+                   <artifactId>lombok</artifactId>
+                <optional>true</optional>
+            </dependency>
 
             <!-- HIBERNATE DEPENDENCIES START -->
             <dependency>
@@ -1531,6 +1536,32 @@
                     <skip>true</skip>
                 </configuration>
             </plugin>
+	    <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <goals>
+              <goal>repackage</goal>
+            </goals>
+            <configuration>
+
+            </configuration>
+          </execution>
+        </executions>
+        <configuration>
+          <excludes>
+            <exclude>
+              <groupId>org.projectlombok</groupId>
+              <artifactId>lombok</artifactId>
+            </exclude>
+            <exclude>
+              <groupId>org.springframework.boot</groupId>
+              <artifactId>spring-boot-devtools</artifactId>
+            </exclude>
+          </excludes>
+        </configuration>
+      </plugin>	
             <plugin>
                 <groupId>com.versioneye</groupId>
                 <artifactId>versioneye-maven-plugin</artifactId>
