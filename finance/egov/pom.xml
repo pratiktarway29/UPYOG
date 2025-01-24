@@ -54,6 +54,12 @@
     <groupId>org.egov</groupId>
     <artifactId>egov-erp</artifactId>
     <version>3.0.2-COE-SNAPSHOT</version>
+    <properties>
+    <log4j2.version>2.17.1</log4j2.version>
+    <java.version>1.8</java.version>
+    <lombok.version>1.18.24</lombok.version>
+  </properties>
+
 
     <packaging>pom</packaging>
 
