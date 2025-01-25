@@ -144,9 +144,7 @@
         </pluginRepository>
     </pluginRepositories>
 
-    <properties>
-	<maven.compiler.source>1.8</maven.compiler.source>  
-        <maven.compiler.target>1.8</maven.compiler.target>     
+    <properties>     
         <timestamp>${maven.build.timestamp}</timestamp>
         <maven.build.timestamp.format>yyyy-MM-dd HH:mm</maven.build.timestamp.format>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -286,7 +284,7 @@
 	    <dependency>  
                <groupId>org.projectlombok</groupId>  
                <artifactId>lombok</artifactId>  
-               <version>1.18.36</version> <!-- Check for the latest version -->  
+               <version>1.18.34</version> <!-- Check for the latest version -->  
                <scope>provided</scope>  
              </dependency>  
 
