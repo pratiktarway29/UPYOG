@@ -1536,16 +1536,6 @@
                     <skip>true</skip>
                 </configuration>
             </plugin>
-	    <plugin>
-        <configuration>
-          <excludes>
-            <exclude>
-              <groupId>org.projectlombok</groupId>
-              <artifactId>lombok</artifactId>
-            </exclude>
-          </excludes>
-        </configuration>
-      </plugin>	
             <plugin>
                 <groupId>com.versioneye</groupId>
                 <artifactId>versioneye-maven-plugin</artifactId>
