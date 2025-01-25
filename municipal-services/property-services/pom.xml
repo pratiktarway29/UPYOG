@@ -119,6 +119,18 @@
 			<name>eGov DIGIT Releases Repository</name>
 			<url>https://nexus-repo.digit.org/nexus/content/repositories/snapshots/</url>
 		</repository>
+		<distributionManagement>  
+                 <repository>  
+                   <id>nexus-repo</id> <!-- This id can be any identifier -->  
+                   <name>Internal Releases</name> <!-- A descriptive name -->  
+                   <url>https://nexus-repo.digit.org/nexus/content/repositories/releases/</url> <!-- URL to your deployment repository -->  
+                   </repository>  
+                <snapshotRepository>  
+                  <id>nexus-snapshots</id> <!-- This id can be different -->  
+                  <name>Internal Snapshots</name> <!-- A descriptive name -->  
+                  <url>https://nexus-repo.digit.org/nexus/content/repositories/snapshots/</url> <!-- URL to your snapshot repository -->  
+                </snapshotRepository>  
+               </distributionManagement>  
 	</repositories>
 	<build>
 		<sourceDirectory>src/main/java</sourceDirectory>
